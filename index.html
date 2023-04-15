@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Meeting Minutes </title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+        <header>
+            <h1>Navigation Menu</h1>
+            <nav class ="menu">
+                <ul>
+                    <li><a href = "#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <h1>Meeting Minutes</h1>
+            <section>
+                <p>Topic of Meeting: </p>
+                <p>Date of Meeting: </p>
+            </section>
+            <h3>Attendance List</h3>
+            <section>
+                <h4>Name:</h4>
+                <ul>
+                    <li><span class = "name">Bob</span></li>
+                </ul>
+                <h4>Contact Information:</h4>
+                <p>bob@email.com</p>
+            </section>
+            <hr>
+            <h1>Agenda</h1>
+            <section>
+                <h3>Agenda Item</h3>
+                <ol>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ol>
+            </section>
+            <hr>
+            <h1>Miscellaneous</h1>
+            <section>
+                <h3>Comments</h3>
+                <p> I am testing the &lt;b&gt; tag, <b>Keyword</b>. It used to bring attention to an element according to MDN. 
+                    I am testing the &lt;strong&gt; tag, <strong>More Important Keyword</strong>. According to MDN, the tag indicates its contents 
+                    have strong importance, seriousness, or urgency, however it should not be ued to apply bold styling.    
+                </p>
+                <p>
+                I am testing the &lt;i&gt; tag, <i>Keyword</i>. This tag is called the Idiomatic Text element. I am testing the &lt;em&gt; tag, <em>Emphasis Keyword</em>
+                This tag is used to mark text that has stress emphasis compared to surrounding text, it should not be used to apply italic styling.
+                </p>
+                <p>
+                    I <br>
+                    Used <br>
+                    Line <br>
+                    Break <br> 
+                    Here <br>
+                </p>
+            </section>
+            <h3>Diagrams/Architecture/Pictures</h3>
+            <div>
+                <img class = "example" src = "screenshots/example.png" alt = "I was lazy and used the provided image">
+            </div>
+            <h3>Audio & Video</h3>
+            <section>
+                <figure>
+                    <figcaption> Listen to a masterpiece: </figcaption>
+                    <audio controls src= "/Misc/bruh-sound-effect-2-37927.mp3", type = "audio/mp3"></audio>
+                </figure>
+            </section>
+            <section>
+                <video controls title = "Cat Video">
+                    <source src = "/Misc/catvideo.mp4" type = "video/mp4">
+            </video>
+            </section>
+            <h3>Testing Tags</h3>
+            <section>
+                <h4>Summary/Details Tag</h4>
+                <details>
+                    <summary>Click to Open</summary>
+                    Boo!
+                </details> <br>
+            </section>
+            <section>
+                <h4>Fieldset Tag</h4>
+                <form>
+                    <fieldset>
+                        <legend>Test Input</legend>
+                        <input type = "checkbox" id = "chkbx" name = "options" value = "1" >
+                        <label for = "chkbx"> Option 1</label>
+                        <input type = "radio" id = "radio" name = "Option 2" value = "2">
+                        <label for = "radio">Option 2</label>
+                        <input type = "text" id = "name" value = "Type Here">
+                        <label for = "sd">Enter Date:</label>
+                        <input type = "date" id = "sd" name = "start-date">
+                    </fieldset>
+                </form>
+            </section> <br>
+            <section>
+                <h4>Textarea Tag</h4>
+                <label for = "comment">Enter Comment:</label>
+                <textarea id = "comment" name = "comment">
+                </textarea>
+            </section>
+            <section>
+                <h4> Datalist Tag</h4>
+                <label for = "Availability"> Choose a Day:</label>
+                <input list = "days" id = "Availability" name = "day-choice">
+                <datalist id = "days">
+                    <option value = "M">
+                    <option value = "T">
+                    <option value = "W">
+                </datalist>
+            </section>
+            <section>
+                <h4> Select Tag</h4>
+                <label for = "Availability"> Choose a Day:</label>
+                    <select name = "Availability" id = "day-select">
+                        <option value = "">Select an Option</option>
+                        <option value = "M">M</option>
+                        <option value = "T">T</option>
+                        <option value = "W">W</option>
+                    </select>
+            </section>
+            <section>
+                <h4>My Favorite Button</h4>
+                <button class = "favbut" type = "button">
+                    Click Me!
+                </button>
+            </section>
+        </main>
+        <footer>
+            <p>CSE 110 Spring 2023 Meeting Minutes</p>
+        </footer>
+    </body>
+</html>
