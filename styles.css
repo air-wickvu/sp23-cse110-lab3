@@ -106,3 +106,49 @@ a:active{
     font-family: "MyFont";
     src: url(/Misc//Poppins/Poppins-Black.ttf);
 }
+
+#Attendance{
+    background-color: #10d16d;
+    color: #FFFFFF;
+    font-size: 40px;
+    display: block;  
+    max-width: 300px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+*{
+    text-align: left;
+}
+
+h4{
+    color: rebeccapurple;
+}
+
+[href ^= "#"]{
+    color: magenta;
+}
+
+li, ul{
+    color: greenyellow;
+}
+
+div h1{
+    text-align:center;
+}
+
+div > p {
+    color: blue;
+}
+  
+h1 ~ p{
+    color: red;
+}
+
+img+p{
+    color: red;
+}
+
+p.div-2{
+    font-weight: 300;
+}
