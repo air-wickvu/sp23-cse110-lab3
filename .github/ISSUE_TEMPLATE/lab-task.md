@@ -13,7 +13,7 @@ assignees: air-wickvu
 
 ## Completion Criteria
 
-Include the specific requirement within the code properly
+Include the specific requirement(s) within the code properly
 
 ## Additional Information
 
@@ -21,4 +21,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 ## Deadline
 
-3/23/2023 at 11:59pm
+4/23/2023 at 11:59pm
