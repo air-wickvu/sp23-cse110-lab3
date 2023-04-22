@@ -13,12 +13,12 @@ assignees: air-wickvu
 
 ## Completion Criteria
 
-[Outline the criteria that must be met in order for this issue to be considered resolved. This could include specific functionality that needs to be implemented, testing requirements, etc.]
+Include the specific requirement within the code properly
 
 ## Additional Information
 
-[Include any additional information or resources that may be helpful for completing this task. This could include links to documentation, relevant code snippets, or anything else that may be useful.]
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 ## Deadline
 
-[Indicate the deadline for completing this task.]
+3/23/2023 at 11:59pm
