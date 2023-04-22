@@ -1,0 +1,108 @@
+/* This is the main CSS file for Meeting Minutes. */
+body{
+    color: #000000;
+    font-size: 6mm;
+    font-family: "myFont";
+}
+
+h1{
+    background-color: #e27114;
+    color: #FFFFFF;
+    font-size: 40px;
+    display: block;  
+    max-width: 300px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{
+    background-color: hsl(50, 93%, 43%);
+    color: white;
+    font-size: 20pt;
+    min-width: 500px;
+}
+
+/* Long Notation */ 
+/* Relative Units: ex, em, lh */
+.div-1{
+    font-size: 4ex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 1em;
+    margin-top:30px;
+    margin-right:30px;
+    margin-left: 30px;
+    margin-bottom:30lh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+    padding-right: 300px;
+
+}
+
+/* Short Notation */
+.div-2{
+    margin: 30px, 30px, 30px, 30px;
+    padding: 10px, 10px, 1px, 1px;
+    border-color: blueviolet;
+    border-style: dashed;
+    position: sticky;
+}
+
+/* Auto */
+.div-3{
+    margin: auto;
+    padding: auto;
+    border-color: blue;
+    border-style: dotted;
+    display: inline-block;
+    position: relative;
+}
+
+img{
+    height: 900px;
+    width: 900px;
+}
+
+.div-1:hover{
+    color: red;
+}
+
+a:active{
+    color:red;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: space-evenly;
+    justify-content: center;
+}
+
+
+.wrap{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.one{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.two{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+}
+
+@font-face {
+    font-family: "MyFont";
+    src: url(/Misc//Poppins/Poppins-Black.ttf);
+}
